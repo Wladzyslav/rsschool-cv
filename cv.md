@@ -1,19 +1,19 @@
 1. **Vladislav Krugovoy**
 
-2. Phone: +375295789500, e-mail: krvlad@gmail.com
+2. **Phone: +375295789500, e-mail: krvlad@gmail.com**
 
-3. I want to become a Senior Developer
+3. **I want to become a Senior Developer**
 
-4. PHP, JS, MySQL, MS SQL, C#
+4. **PHP, JS, MySQL, MS SQL, C#**
 
-5. Code examples:
+5. **Code examples**:
 ```javascript
 function isPalindrome(line) {
 let rev = line.toString().split('').reverse().join('');
 return (line == rev);
 }
 ```
-6. *Last projects*
+6. **Last projects**
 * [ASSOI GSNTI](http://80.94.166.163:8080/)
 * [ASM NRVK](nkvk.belisa.org.by)
 * [REESTR](http://80.94.166.163:8088/reestr.php)
