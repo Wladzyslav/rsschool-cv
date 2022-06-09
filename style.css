@@ -1,0 +1,43 @@
+body{
+  font:13px/1.231 arial,helvetica,clean,sans-serif; /* YUI Font Reset */
+  *font-size:small;     /* YUI Font Reset */
+  *font:x-small;        /* YUI Font Reset */
+  height: 100%;
+  background: #fff;    /* not all browsers set white as the default background color  */
+  color: #444;         /* color is set to create not too much contrast with the background color */
+  line-height: 1.4;    /* line-height is to ensure that text is legible enough ( enough space between the lines) */
+}
+
+select,input,button,textarea,button {
+  font:99% arial,helvetica,clean,sans-serif;
+}
+
+table {
+  font-size:inherit;
+  font:100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+pre,code,kbd,samp,tt {
+  font-family:monospace;
+  *font-size:108%;
+  line-height:100%;
+}
+
+/* YUI Base css http://developer.yahoo.com/yui/base/ */
+
+h1 {
+	/*18px via YUI Fonts CSS foundation*/
+	font-size:138.5%;
+}
+
+h2 {
+	/*16px via YUI Fonts CSS foundation*/
+	font-size:123.1%;
+}
+
+h3 {
+	/*14px via YUI Fonts CSS foundation*/
+	font-size:108%;
+}
