@@ -1,10 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-<meta charset="UTF-8">
-<title> Пример простой страницы html</title>
-</head>
-<body>
-Пример простой страницы
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+   <style>
+       pre, code {
+  font-family: monospace, monospace;
+}
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
+ol > li {
+    font-weight: bold;
+}
+ol > li > ul > li, code{
+    font-weight: normal;
+}
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+img {
+    float:right;
+    width: 25%;
+}
+   </style>
+  </head>
+  <body>
+      <section>
+          <h1>CV - Vladislav Krugovoy</h1>
+    <ol><img src="foto.jpg" alt="Vladislav Krugovoy" />
+        <li>Vladislav Krugovoy</li>
+<li>Phone: +375295789500, e-mail: krvlad@gmail.com</li>
+<li>I want to become a Senior Developer</li>
+<li>PHP, JS, MySQL, MS SQL, C#</li>
+<li>        Code examples:
+    <figure>
+        <figcaption>Javascript</figcaption>
+        <pre>
+          <code>
+               function isPalindrome(line) {
+                let rev = line.toString().split('').reverse().join('');
+                return (line == rev);
+                }
+          </code>
+        </pre>
+      </figure>
+    </li>
+<li>        Last projects
+<ul>
+    <li><a href="https://u0975569.isp.regruhosting.ru/" target="_blank">New site BelISA</a></li>
+    <li><a href="http://nkvk.belisa.org.by/" target="_blank">ASM NRVK</a></li>
+    <li><a href="http://80.94.166.163:8088/reestr.php" target="_blank">REESTR</a></li>
+</ul>
+    </li>
+<li>  Education 
+        <ul>
+            <li>2000 Poltava National Pedagogical University (Faculty of Physics and Mathematics)</li>
+        <li>2010 Financial University (Finance management)</li>
+        </ul>
+    </li>
+<li>English
+        <ul>
+            <li>Lingva Practica (A2 - 10 months)</li>
+            <li>Lingva Practica (B1 - till now)</li>
+</ul>
+</li>
+         
+    </ol>
+</section>
+  </body>
 </html>
